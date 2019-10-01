@@ -1,0 +1,98 @@
+@mixin button-decoration-login {
+    color: white;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-size: 24px;
+    padding: 4px 10rem 4px 10rem;
+    border:0;
+    cursor: pointer;
+}
+
+
+
+.login{
+    background: url("../image/kelsey-chance-tAH2cA_BL5g-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    height: 80vh;
+}
+
+
+
+.login-contents{  
+    background: rgba(0,0,0,0.6);
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+}
+
+.login-base{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+
+    h2{
+        margin: 0 0 3rem;
+    }
+}
+
+.login-erea{
+    p{
+        font-size: 18px;
+        color: white;
+    }
+}
+
+.login-box{
+    margin: 12px 0;
+    padding: 0 20px;
+    font-size: 12px;
+    color: #fff;
+    background: none;
+    border-radius: 30px;
+    height: 2.3em;
+    width: 25em;
+    outline: none;
+    border: #fff solid 3px;
+}
+
+.login-link {
+    a{
+        background-color: #0FCC41;
+        color: white;
+        margin-top: 10px;
+        border-radius: 30px;
+        font-size: 24px;
+        padding: 4px 20px 4px 20px;
+        border: 0;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+
+
+.forgot{margin-top: 0.8rem;
+    a{
+        
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        border-bottom: 0.5px solid white;
+    }
+}
+
+.sns-icon{
+    margin-top: 20px;
+    margin-bottom: 4rem;
+    a {
+        color: white;
+    }
+}
+
+.sns-icon a:first-of-type{
+    margin-right: 50px;
+}

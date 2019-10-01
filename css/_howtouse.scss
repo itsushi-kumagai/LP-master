@@ -1,0 +1,77 @@
+@mixin button-decoration {
+    color: white;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-size: 24px;
+    padding: 4px 20px 4px 20px;
+    border:0;
+    cursor: pointer;
+}
+
+
+
+
+.use_contents{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    img{
+      
+        margin-right: 10rem;
+        width: 20%;
+    }
+}
+
+
+
+.Description{
+    text-align: center;
+    p{  
+        text-align: center;
+        font-size: 19px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        color: #c7c7c7;
+    }
+}
+
+.register-btn {
+    a{
+        background-color: #F70661;
+        text-decoration: none;
+        @include button-decoration();
+    }
+}
+
+.find_func {
+    margin: 1rem;
+}
+
+.use_contents{
+    display: flex;
+    justify-content: center;
+    img{
+       margin-right: 8rem;
+    }
+ 
+}
+
+.use_contents2{
+    margin-left: 9rem;
+    img{
+        margin-left: 7rem;
+    }
+ 
+}
+
+.start{
+    margin-top: -6rem;
+    padding: 6rem 0 10rem;
+    text-align: center;
+}
+
+.right{
+    display: flex;    
+    align-items: center;
+    margin: 0 0 0 auto;
+}

@@ -11,9 +11,11 @@
 
 
 .login{
-    background: url("../image/kelsey-chance-tAH2cA_BL5g-unsplash.jpg");
+    background: url("../LPImages/danny-howe-bn-D2bCvpik-unsplash.jpg");
     background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     width: 100%;
     position: relative;
     height: 80vh;
@@ -22,7 +24,7 @@
 
 
 .login-contents{  
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.4);
     height: 80vh;
     width: 100%;
     text-align: center;
@@ -30,13 +32,12 @@
 
 .login-base{
     position: absolute;
-    top: 15%;
+    top: 50%;
     left: 50%;
-    transform: translateY(-50%);
-    transform: translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
 
     h2{
-        margin: 0 0 3rem;
+        margin: 0;
     }
 }
 
@@ -61,13 +62,15 @@
 }
 
 .login-link {
+    margin-top: 2.5rem;
     a{
+        
         background-color: #0FCC41;
         color: white;
         margin-top: 10px;
         border-radius: 30px;
         font-size: 24px;
-        padding: 4px 20px 4px 20px;
+        padding: 4px 38px 4px 38px;
         border: 0;
         cursor: pointer;
         text-decoration: none;
@@ -85,14 +88,23 @@
     }
 }
 
-.sns-icon{
-    margin-top: 20px;
-    margin-bottom: 4rem;
-    a {
-        color: white;
-    }
+.sns-icon-erea{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 0.5rem;
 }
-
-.sns-icon a:first-of-type{
-    margin-right: 50px;
+.sns-icon{
+    position: relative;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+    i{
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 52%;
+        transform: translateX(-50%) translateY(-50%);
+    }
 }

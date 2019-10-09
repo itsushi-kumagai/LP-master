@@ -29,22 +29,98 @@
                     </div>
                 </ul> 
             </div>
+
+
+               
+        <div class="header2">
+            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+            <label for="openSidebarMenu" class="sidebarIconToggle">
+              <div class="spinner diagonal part-1"></div>
+              <div class="spinner horizontal"></div>
+              <div class="spinner diagonal part-2"></div>
+            </label>
+          <div id="sidebarMenu">
+            <ul class="sidebarMenuInner">
+              <li><a href="#" target="_blank">Home</a></li>
+              <li><a href="#" target="_blank">Events</a></li>
+              <li><a href="#" target="_blank">Profile</a></li>
+              <li><a href="#" target="_blank">Log out</a></li>
+            </ul>
+          </div>
+        
+        
+        
+        
+          <input type="checkbox" class="openSidebarSearch" id="openSidebarSearch">
+          <label for="openSidebarSearch" class="sidebarIconSearch">
+            <i class="fas fa-search search_icon"></i>
+          </label>
+        
+                <div id="sidebarSearch">
+                  <div class="search-erea">
+                    <div class="search-title">Enter the name of event</div>
+                      <input type="text" class="search_text">
+                      <div class="search-title">Choose tags</div>
+                      <ul class="tag-list">
+                        <li>Tag</li>
+                        <li>Tag</li>
+                        <li>Tag</li>
+                        <li>Tag</li>
+                      </ul>
+                      <ul class="tag-list">
+                        <li>Tag</li>
+                        <li>Tag</li>
+                        <li>Tag</li>
+                        <li>Tag</li>
+                      </ul> 
+                    </div>
+        
+                    <div class="search-erea">
+                      <div class="search-title">Categorys</div>
+                      <div class="Category-list">
+                        <dl class="Category">
+                          <dt><img src="./image/martini.png" alt="bar-img"></dt>
+                          <dd>bar</dd>
+                        </dl>
+                        <dl class="Category">
+                          <dt><img src="./image/beer.png" alt="pub-img"></dt>
+                          <dd>pub</dd>
+                        </dl>
+                        <dl class="Category">
+                          <dt><img src="./image/dj.png" alt="club-img"></dt>
+                          <dd>club</dd>
+                        </dl>
+                      </div>
+                    </div>
+        
+                    <div class="search-erea">
+                      <div class="search-title">Day</div>
+                      <input type="text" class="Day-box">
+                    </div>
+        
+                </div>
+        
+              </div>
             
-             <div class="background-img">
-                
+        <div class="background-img">  
             <div class="main_search">
-                <form action="#" class="search">
-                <input type="text" class="search_text" placeholder="Enter the key words !">
-                <select name="select" id="select" class="Genre">
-                        <option value="" hidden">genre</option>
-                        <option value="1">bar</option>
-                        <option value="2">pub</option>
-                        <option value="3">club</option>
-                </select>
-                <input type="date" class="search_date">
-                <a href="#"><i class="fas fa-search search_icon"></i></a>
+                <div class="search_content">
+                    <form action="#" class="search">
+                    <input type="text" class="search_text" placeholder="Enter the key words !">
+                    <select name="select" id="select" class="Genre">
+                            <option value="" hidden">genre</option>
+                            <option value="1">bar</option>
+                            <option value="2">pub</option>
+                            <option value="3">club</option>
+                    </select>
+                    <input type="date" class="search_date">
+                    <a href="#"><i class="fas fa-search search_icon"></i></a>
+                </div>
             </div>
-            </div>
+        </div>
+
+
+     
         <section>
                 <h2>Featured Events</h2>
                 <div class="swiper-container">
@@ -226,31 +302,30 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
 
+            </div>
                 <div class="seemore-btn">
                     <a href="#">See more</a>
                 </div>
-            </div>
     </section>
     <section>
         <div class="category-container">
             <h2>CATEGORY</h2>
             <div class="category-card">
-                <div class="category-image">
-                    <a href="#">
-                        <img src="./LPImages/q-u-i-Zrp9b3PMIy8-unsplash.jpg" alt="Bar-image">
-                    </a>
+                <div class="category-card-content">
+                    <div class="category-image">
+                        <a href="#"><img src="./LPImages/q-u-i-Zrp9b3PMIy8-unsplash.jpg" alt="Bar-image"></a>
+                    </div>
                     <p>Bar</p>
                 </div>
-                <div class="category-image">
-                    <a href="#">
-                        <img src="./LPImages/patrick-tomasso-GXXYkSwndP4-unsplash.jpg" alt="Pub-image">
-                    </a>  
+                <div class="category-card-content">
+                    <div class="category-image">
+                        <a href="#"><img src="./LPImages/patrick-tomasso-GXXYkSwndP4-unsplash.jpg" alt="Pub-image"></a>     
+                    </div> 
                     <p>Pub</p>
                 </div>
-                <div class="category-image">
-                    <a href="#">
-                        <img src="./LPImages/pablo-heimplatz-ZODcBkEohk8-unsplash.jpg" alt="Club-image">
-                    </a>
+                <div class="category-card-content">
+                    <div class="category-image"><a href="#"><img src="./LPImages/pablo-heimplatz-ZODcBkEohk8-unsplash.jpg" alt="Club-image"></a>  
+                    </div>
                     <p>Club</p>
                 </div>
             </div>
@@ -264,7 +339,7 @@
                         <img src="./LPImages/phone image 1@2x.png" alt="phone1">
                     <div class="Description">
                         <h3>register</h3>
-                        <p>register or login to use <br> it more comfortably.</p>
+                        <p>register or login to use it more comfortably.</p>
                         <div class="register-btn">
                             <a href="#">Register</a>
                         </div>
@@ -274,7 +349,7 @@
                 <div class="use_contents use_contents2">           
                     <div class="Description" style="align-items: center;">
                         <h3>Create a profile</h3>
-                        <p>make your profile and <br> let peopleknow who you are.</p>
+                        <p>make your profile and let peopleknow who you are.</p>
                     </div>
                     <img src="./LPImages/phone image 2@2x.png" alt="phone2">
                 </div>
@@ -285,12 +360,12 @@
                             <h3>Find events</h3>
                             <h4><span style="color: #F70661">●</span> Save function</h4>
                                 <div class="phone-3">
-                                        <p>You can use the save function. <br>
+                                        <p>You can use the save function. 
                                         Save and stock events of interest</p>
                                 </div> 
                             <h4><span style="color: #F70661">●</span> Show recommendations</h4>
                                 <div class="phone-3">
-                                    <p>We can introduce recommended <br> 
+                                    <p>We can introduce recommended 
                                         events tailored to you</p>
                                 </div>        
                         </div> 
@@ -299,16 +374,16 @@
                 <div class="use_contents use_contents2">
                         <div class="Description">
                             <h3>Alternating current</h3>
-                            <p>Chat about events with<br>
-                            many other users using <br>
+                            <p>Chat about events with
+                            many other users using 
                             the chat feature.</p>
                         </div>
                         <img src="./LPImages/phone image 4@2x.png" alt="phone2">
                 </div>
             </div>   
                 
-                <div class="start" >
-                    <span style="font-size: 40px">Let's get started</span>
+                <div class="start">
+                    <h3>Let's start</h3>
                     <div class="register-btn">
                             <a href="#">Register</a>
                     </div>
@@ -318,17 +393,20 @@
             <div class="login">
                     <div class="login-contents">
                         <div class="login-base">
-                            <h2>Let's start</h2>
+                            <h2>Login</h2>                            
+                            
+                            <div class="sns-icon-erea">
+                                <div class="sns-icon face"><i class="fab fa-facebook-f"></i></div>
+                                <div class="sns-icon twi"><i class="fab fa-twitter"></i></div>
+                                <div class="sns-icon goo"><i class="fab fa-google"></i></div>
+                            </div>
                             <div class="login-erea">
                                     <p>E-mail adress</p>
                                     <input class="login-box" type="text" name="txt" placeholder="">
                                     <p>Password</p>
                                     <input class="login-box" type="text" name="txt" placeholder="">
                             </div>
-                            <div class="sns-icon">
-                                <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
-                                <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
-                            </div>
+
                             <div class="login-link">
                                 <a href="#">
                                     login
@@ -342,7 +420,14 @@
                         </div>
                     </div>
             </div>
+            
+          
         </section>
+        <footer>
+            <div class="footer"></div>
+        </footer>
+     
+        
         
       
 

@@ -3,6 +3,7 @@
 @import "./category";
 @import "./howtouse";
 @import "./login";
+@import "./footer";
 /*@import "./footer";*/
 
 
@@ -33,4 +34,13 @@ h4 {
     color: white;
     font-size: 23px;
     margin-top: 2rem;
+}
+.face{
+    background: #305097;
+}
+.twi{
+    background: #00aced;
+}
+.goo{
+    background: #db4a39;
 }
